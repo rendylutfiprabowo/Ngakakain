@@ -283,7 +283,7 @@
     <script type="text/javascript" src="https://cdn.datatables.net/2.0.7/js/dataTables.bootstrap5.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.bootstrap5.js"></script>
-    <script src="{{ asset('assets/js/table.js') }}"></script>
+    <script src="{{ asset('/public/assets/js/table.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('assets/js/transaksi.js') }}"></script>
+    <script src="{{ asset('/public/assets/js/transaksi.js') }}"></script>
 @endsection
