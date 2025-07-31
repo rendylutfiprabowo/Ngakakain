@@ -1,0 +1,22 @@
+.bg-blue-custom{
+    background-color: #2C4D5F
+    ;
+}
+
+.content-bg{
+    background-color: #EEECEC;
+    ;
+}
+
+.text-gray{
+    color: #626C6C;
+}
+
+.active{
+    background-color: #626C6C;
+    border-radius: 10px;
+}
+.radius
+{
+    border-radius: 10px;
+}
