@@ -89,7 +89,8 @@
                                 aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <form id="editTransactionForm{{ $transaction->id }}" action="{{ route('transaksi.update', $transaction->id) }}" method="POST">
+                                        <form id="editTransactionForm{{ $transaction->id }}"
+                                            action="{{ route('transaksi.update', $transaction->id) }}" method="POST">
                                             @csrf
                                             <div class="modal-header">
                                                 <h1 class="modal-title fs-5" id="editTransaksiModalLabel">Edit Data
@@ -166,7 +167,9 @@
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary"
                                                     data-bs-dismiss="modal">Close</button>
-                                                <button type="button" onclick="confirmSubmission({{ $transaction->id }})" class="btn btn-success">Save</button>
+                                                <button type="button"
+                                                    onclick="confirmSubmission({{ $transaction->id }})"
+                                                    class="btn btn-success">Save</button>
                                             </div>
                                         </form>
                                     </div>
@@ -283,7 +286,7 @@
     <script type="text/javascript" src="https://cdn.datatables.net/2.0.7/js/dataTables.bootstrap5.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.2/js/dataTables.responsive.js"></script>
     <script src="https://cdn.datatables.net/responsive/3.0.2/js/responsive.bootstrap5.js"></script>
-    <script src="{{ asset('/assets/js/table.js') }}"></script>
+    <script src="{{ asset('/public/assets/js/table.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{{ asset('/assets/js/transaksi.js') }}"></script>
+    <script src="{{ asset('/public/assets/js/transaksi.js') }}"></script>
 @endsection
