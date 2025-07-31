@@ -3,6 +3,12 @@
 **Ngakakain** is a simple, admin-only web application for documenting transactions in a TEXTILE STORE. Built using Laravel, this system helps store owners keep track of fabric orders, logs, and activity—all behind a secure login.
 
 ---
+## 🌐 Live Demo
+
+You can try the live version of the NGAKAKAIN Web Apps here:  
+👉  https://lightslategray-octopus-397646.hostingersite.com/ 
+
+---
 
 ## 🔧 Features
  
