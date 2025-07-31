@@ -10,7 +10,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('/public/assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/public/assets/css/general.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="{{ asset('/public/assets/img/logo_ngakakain.png') }}" type="image/png">
     @yield('cssPage')
+
 </head>
 
 <body>
